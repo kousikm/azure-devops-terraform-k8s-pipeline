@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-deployment
+  labels:
+    app: hello-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-api
+  template:
+    metadata:
+      labels:
+        app: hello-api
+    spec:
+      containers:
+      - name: hello-api
+        image: kousikm/hello_rest_api
+---        
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+  app: hello-api
+  name: hello-api
+  namespace: default
+spec:
+  ports:
+  - nodePort: 30702
+    port: 5000
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: hello-api
+  sessionAffinity: None
+  type: LoadBalancer
