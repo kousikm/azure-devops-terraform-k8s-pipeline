@@ -19,5 +19,5 @@ variable resource_group_name {
 }
 
 variable location {
-  default = "South India"
+  default = "East US"
 }
