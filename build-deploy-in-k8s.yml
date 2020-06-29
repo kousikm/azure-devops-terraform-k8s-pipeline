@@ -19,7 +19,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'docker-hub'
+        containerRegistry: 'docker-registry'
         repository: 'kousikm/hello_rest_api'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
