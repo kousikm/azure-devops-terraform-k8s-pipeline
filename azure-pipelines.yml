@@ -21,7 +21,7 @@ steps:
     ensureBackend: true
     backendAzureRmResourceGroupName: 'backend-rg'
     backendAzureRmResourceGroupLocation: 'southindia'
-    backendAzureRmStorageAccountName: 'storageacctname'
+    backendAzureRmStorageAccountName: 'storageacctnamexm1'
     backendAzureRmContainerName: 'storageaccntcon'
     backendAzureRmKey: 'k8.tfstate'
 
