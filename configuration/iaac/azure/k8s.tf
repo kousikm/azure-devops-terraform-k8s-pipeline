@@ -30,7 +30,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
     client_secret = "${var.client_secret}"
   }
 
-  tags {
+  tags = {
     Environment = "Development"
   }
 }
