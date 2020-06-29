@@ -16,7 +16,7 @@ steps:
   inputs:
     command: 'init'
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure'
-        backendType: 'azurerm'
+    backendType: 'azurerm'
     backendServiceArm: 'azure--service-connection'
     ensureBackend: true
     backendAzureRmResourceGroupName: 'backend-rg'
