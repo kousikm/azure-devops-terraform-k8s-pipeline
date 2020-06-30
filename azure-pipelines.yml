@@ -20,7 +20,7 @@ steps:
     backendServiceArm: 'azure-service-connection'
     ensureBackend: true
     backendAzureRmResourceGroupName: 'backend-rg'
-    backendAzureRmResourceGroupLocation: 'southindia'
+    backendAzureRmResourceGroupLocation: 'eastus'
     backendAzureRmStorageAccountName: 'storageacctnamexm1'
     backendAzureRmContainerName: 'storageaccntcon'
     backendAzureRmKey: 'k8.tfstate'
