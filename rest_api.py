@@ -11,7 +11,7 @@ def test_hello():
 	rand_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k = N))
 	now = datetime.datetime.now()
 	now = now.strftime("%Y-%m-%d %H:%M:%S")
-	return "<h2>Hello "+ rand_str + ", Current time is " + str(now) + "</h2>"
+	return "<h1>Hello "+ rand_str + ", Current time is " + str(now) + "</h1>"
 
 
 if __name__ == "__main__":
