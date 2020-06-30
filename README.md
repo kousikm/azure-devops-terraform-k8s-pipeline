@@ -4,5 +4,13 @@ API URL :- SERVER:5000/hello
 
 Sample Output :- Hello XXXXXXXXXX, Current time is 30-06-2020 01:01:01
 
+
+ Azure Marketplace TerraformCLI plugins:-
+ 
+Terraform 1 (https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks)
+
+Terraform 2 (https://marketplace.visualstudio.com/items?itemName=charleszipp.azure-pipelines-tasks-terraform)
+
+
 Detail implementation is given in following video:-
 
