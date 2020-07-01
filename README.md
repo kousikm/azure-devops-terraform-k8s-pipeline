@@ -14,3 +14,6 @@ Terraform 2 (https://marketplace.visualstudio.com/items?itemName=charleszipp.azu
 
 Detail implementation is given in following video:-
 
+https://youtu.be/U5Ti0LjxvLE
+
+https://youtu.be/e0kSNSN6idE
